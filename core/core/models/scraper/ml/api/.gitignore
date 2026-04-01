@@ -1,0 +1,20 @@
+# Ambiente virtual
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Variáveis de ambiente — NUNCA commitar o .env com segredos
+.env
+
+# Modelo treinado (pode ser grande)
+ml/saved_model/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
